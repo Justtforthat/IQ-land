@@ -1,0 +1,446 @@
+body {
+  font-family: "Montserrat";
+  text-align:center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+p{
+  font-style: "Ubuntu" , sans-serif ;
+}
+/* Title */
+.iq-land{
+  padding: 3% 0% 6%;
+}
+
+/* Images */
+.brain-img {
+  position:absolute;
+  left:250px;
+  top:210px;
+}
+.puzzle-img{
+  position:absolute;
+  right:130px;
+  top:150px;
+}
+.intellectual-img{
+  position:absolute;
+  left:450px;
+  bottom:250px;
+}
+.bulb-img{
+  position:absolute;
+  right:100px;
+  bottom:290px;
+}
+.horse-img{
+  position:absolute;
+  left:100px;
+  bottom:300px;
+}
+.figure-img{
+  position:absolute;
+  right:450px;
+  bottom:380px;
+}
+.calculating-img{
+  position:absolute;
+  right:310px;
+  bottom:100px;
+}
+.think-img{
+  position:absolute;
+  left:300px;
+  bottom:50px;
+}
+.rassengun-img{
+  position: absolute;
+  width:350px;
+  left:600px;
+}
+.images{
+  width:70px;
+}
+
+/* Information */
+.skill-1-container {
+  width: 50%;
+  margin: 50px auto 0 auto;
+  text-align: left;
+}
+.posibility-left-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.posibility-right-img{
+  width: 25%;
+  float: right;
+  margin-right: 0;
+}
+
+.skill-2-container {
+  width: 50%;
+  margin: 100px auto 0px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-3-container{
+  width: 50%;
+  margin: 80px auto 50px auto;
+  text-align: left;
+}
+.question{
+  Font-size:3.5rem;
+}
+
+
+#title {
+  background-color: #16697a ;
+  width: 100%;
+  height: 775px;
+  padding: 1.5% 5% 7%;
+  border-radius: 0 0 25% 25%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color:#fff;
+}
+.dropdown-item{
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 4% 5% 5%;
+}
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 0.9;
+  color: #fff;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icons {
+  font-size: 80px;
+  padding-bottom: 10px;
+}
+
+#extra-information{
+  background-color:  #bce6eb;
+  border-radius: 25% 25% 0 0;
+
+}
+
+/* Pyatnashka */
+
+#pyatnashka {
+background-color: #a3d8f4;
+padding-bottom: 10.5%;
+}
+.game15{
+  display: inline-block;
+}
+#reset {
+	background-color:gray;
+	color: #fff;
+  margin-bottom:1%;
+
+}
+td {
+	text-align:center;
+	font-family:"Montserrat", sans-serif;
+	color: gray;
+	vertical-align: middle;
+}
+#box td {
+	border:solid 3px gray;
+  background-color:;
+	text-align:center;
+	font-size:50px;
+	font-family:"Ubuntu",  sans-serif;
+  font-weight: 500;
+	color:black;
+	width: 100px;
+	height: 100px;
+}
+
+#box td:hover {
+	cursor: grab;
+}
+
+/* Footer */
+ #footer{
+   background-color: #16697a ;
+ }
+.container-fluis{
+  padding: 3% 13%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+ /* Saper */
+#saper {
+  background-color: #8bcdcd;
+}
+ :root {
+	--tileSize: 50px;
+	--boardSize: 0px;
+}
+.endscreenContent{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+.endscreen {
+	background: #FFF;
+	padding: 20px;
+	text-align: center;
+	font-size: 40px;
+	display: none;
+	color: red;
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+.endscreen.show {
+	display: block;
+  background-color:#8bcdcd;
+}
+.endscreen span {
+	color: green;
+}
+.col-left {
+	display: inline-block;
+	width: 48%;
+}
+.col-right {
+	display: inline-block;
+	width:48%;
+	text-align: right;
+}
+.board {
+	background: #e2e2e2;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 10px auto;
+	border: 8px solid #337AB7;
+	box-sizing: content-box;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.board .tile {
+	background: #e2e2e2;
+	width: var(--tileSize);
+	height: var(--tileSize);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: calc(var(--tileSize) * .8);
+	cursor: pointer;
+	user-select: none;
+	transition: background .2s ease;
+	font-family: Tahoma, sans-serif;
+	box-shadow: inset 0 2px 0 0 #fcfcfc, inset 2px 0 0 0 #fcfcfc, inset 0 -2px 0 0 #c9c9c9, inset -2px 0 0 0 #c9c9c9;
+}
+.board .tile:hover:not(.tile--checked) {
+	background: #efefef;
+}
+.board .tile--checked {
+	background: #d5d5d5;
+	box-shadow: inset 0 1px 0 0 #c9c9c9, inset 1px 0 0 0 #c9c9c9, inset 0 -1px 0 0 #c9c9c9, inset -1px 0 0 0 #c9c9c9;
+}
+.board .tile--checked.tile--bomb:before, .board .tile--checked.tile--bomb:after {
+	opacity: 1;
+}
+.board .tile--checked:hover {
+	cursor: default;
+}
+.board .tile--bomb {
+	font-size: calc(var(--tileSize) * .5);
+}
+.board .tile--flagged {
+	font-size: calc(var(--tileSize) * .5);
+}
+.minesweeper-btn {
+    display: inline-block;
+    padding: 0 40px;
+    height: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+    background-color: #337AB7;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: all 0.4s;
+    outline: none !important;
+    border: none;
+	text-decoration: none;
+}
+.minesweeper-btn:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.settings fieldset {
+	border: none;
+}
+
+.settings input[type=radio]{
+	display:none;
+}
+.settings label {
+	margin: 12px 0;
+	display: inline-block;
+	position: relative;
+	cursor:pointer;
+	font-size: 13px;
+	line-height:18px;
+	transition: .4s all;
+	color:#337AB7;
+	font-weight: bold!important;
+}
+.settings input[type=radio] + label  {
+	margin: 12px 14px 12px 22px;
+}
+.settings input[type=radio] + label:hover{
+	color:#000;
+}
+.settings input[type=radio] + label:before {
+	position: absolute;
+	content: '';
+	width: 18px;
+	height: 18px;
+	left:-24px;
+	border: 2px solid #337AB7;
+	border-radius: 2px;
+	transition: background .4s;
+}
+.settings input[type=radio] + label:before {
+	border-radius: 100%;
+}
+.settings input[type=radio]:checked + label:before {
+	background: #337AB7;
+}
+@media screen and (max-width: 767px) {
+	.board-wrap {
+		transform: scale(0.8);
+		width: calc(100% + 160px);
+		left: -80px;
+		position: relative;
+	}
+}
+@media screen and (max-width: 520px) {
+	.board-wrap {
+		transform: scale(0.5);
+		width: calc(100% + 360px);
+		left: -180px;
+	}
+}
+#dropdownMenuButton {
+  background: none;
+  border: none;
+}
+.dropdown-menu {
+ background: none;
+ color: white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color:white;
+}
+/* To up */
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+  background-color: #34626c;
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: white;
+   }
+
+/* Цитата */
+.quote{
+  color:white;
+  padding-top: 3%;
+  font-size: 1.5rem;
+
+}
+/* Testimonial */
+
+#testimonial-carousel1{
+  background-color: #a3d8f4;
+}
+#testimonial-carousel2{
+  background-color: #8bcdcd;
+  color: white;
+}
+.testimonial-text{
+  color:black;
+}
+/* Pyatnashka-site Saper-site*/
+#pyatnashka-navbar {
+  background-color:#16697a;
+  padding: 1.5% 5% 2.5%;
+}
+.logo-img{
+  width:60px;
+  padding-right:10px;
+}
+
+.list-games {
+  text-decoration: none;
+  color: black;
+}
+
+.list-games:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.list-text{
+  color:white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.list {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
